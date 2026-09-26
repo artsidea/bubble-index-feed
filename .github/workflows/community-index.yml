@@ -1,0 +1,90 @@
+name: Hourly Community Index Update
+
+on:
+  schedule:
+    - cron: '5 * * * *' # 매시간 (Adanos가 시간 단위로 갱신)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: community-index
+  cancel-in-progress: false
+
+jobs:
+  update-community-index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Adanos community sentiment
+        env:
+          ADANOS_API_KEY: ${{ secrets.ADANOS_API_KEY }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${ADANOS_API_KEY}" ]; then
+            echo "::error::ADANOS_API_KEY secret is not set"
+            exit 1
+          fi
+
+          response=$(curl -sS -w '\nHTTP_CODE:%{http_code}' --max-time 30 \
+            -H "X-API-Key: ${ADANOS_API_KEY}" \
+            -H 'Accept: application/json' \
+            'https://api.adanos.org/reddit/stocks/v1/market-sentiment')
+
+          http_code=$(printf '%s' "$response" | tail -n1 | cut -d: -f2)
+          body=$(printf '%s' "$response" | sed '$d')
+
+          echo "HTTP $http_code"
+          if [ "$http_code" != "200" ]; then
+            echo "::error::Adanos request failed (HTTP $http_code)"
+            exit 1
+          fi
+
+          mkdir -p docs
+          printf '%s' "$body" | jq '
+            (.bullish_pct // 0) as $bull
+            | (.bearish_pct // 0) as $bear
+            | ($bull + $bear) as $directional
+            | (if $directional > 0
+               then ($bull / $directional * 100)
+               else (((.sentiment_score // 0) + 1) / 2 * 100)
+               end) as $score
+            | {
+                score: ($score | round),
+                bullish_pct: $bull,
+                bearish_pct: $bear,
+                sentiment_score: (.sentiment_score // 0),
+                mentions: (.mentions // 0),
+                trend: (.trend // "stable"),
+                updatedAt: (now | todateiso8601)
+              }
+          ' > docs/community.json
+
+          cat docs/community.json
+          jq -e '.score >= 0 and .score <= 100' docs/community.json > /dev/null
+
+      - name: Commit updated index
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/community.json
+
+          if git diff --staged --quiet; then
+            echo "No change"
+            exit 0
+          fi
+
+          git commit -m "chore: update community index [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push attempt $i failed"
+            sleep 5
+          done
+          exit 1
