@@ -26,6 +26,9 @@ score = (sentiment_score + 1) / 2 * 100
 `bullish_pct`와 `bearish_pct`는 Adanos가 정수로 반올림해서 내려주기 때문에
 그 둘의 비율로 계산하면 값이 거의 안 움직입니다. 그래서 쓰지 않습니다.
 
+`tickers`는 그때 이야기가 몰린 종목입니다. 버즈가 높은 순으로 최대 10개만 담습니다.
+Adanos가 그보다 적게 주면 있는 만큼만 있습니다.
+
 ## 키를 바꿀 때
 
 저장소 Settings → Secrets and variables → Actions → `ADANOS_API_KEY` 값을 고치면 됩니다.

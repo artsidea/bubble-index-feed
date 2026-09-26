@@ -58,6 +58,12 @@ jobs:
                 sentiment_score: (.sentiment_score // 0),
                 mentions: (.mentions // 0),
                 trend: (.trend // "stable"),
+                tickers: (
+                  [.drivers[]? | select(.ticker != null and .ticker != "")
+                    | {symbol: .ticker, mentions: (.mentions // 0), buzz: ((.buzz_score // 0) | round)}]
+                  | sort_by(-.buzz)
+                  | .[:10]
+                ),
                 updatedAt: (now | todateiso8601)
               }
           ' > docs/community.json
