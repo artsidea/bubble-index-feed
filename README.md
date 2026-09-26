@@ -16,12 +16,15 @@ https://artsidea.github.io/bubble-index-feed/community.json
 
 ## 점수 계산
 
-강세 의견과 약세 의견 중 강세가 차지하는 비율을 0~100으로 씁니다.
-중립적인 잡담은 빼기 때문에 이야기 양이 아니라 분위기만 반영됩니다.
+Adanos의 감성 점수(`sentiment_score`, -1이 극단적 약세 ~ +1이 극단적 강세)를
+0~100으로 펼쳐서 씁니다. 50이 중립입니다.
 
 ```
-score = bullish_pct / (bullish_pct + bearish_pct) * 100
+score = (sentiment_score + 1) / 2 * 100
 ```
+
+`bullish_pct`와 `bearish_pct`는 Adanos가 정수로 반올림해서 내려주기 때문에
+그 둘의 비율로 계산하면 값이 거의 안 움직입니다. 그래서 쓰지 않습니다.
 
 ## 키를 바꿀 때
 

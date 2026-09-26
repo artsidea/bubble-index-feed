@@ -45,19 +45,16 @@ jobs:
             exit 1
           fi
 
+          # score는 sentiment_score(-1~1)를 0~100으로 펼친 값.
+          # bullish_pct/bearish_pct는 Adanos가 이미 정수로 반올림해서 줘서
+          # 그 비율로 계산하면 28/(28+19)=60처럼 값이 고정된다.
           mkdir -p docs
           printf '%s' "$body" | jq '
-            (.bullish_pct // 0) as $bull
-            | (.bearish_pct // 0) as $bear
-            | ($bull + $bear) as $directional
-            | (if $directional > 0
-               then ($bull / $directional * 100)
-               else (((.sentiment_score // 0) + 1) / 2 * 100)
-               end) as $score
+            (((.sentiment_score // 0) + 1) / 2 * 100) as $score
             | {
                 score: ($score | round),
-                bullish_pct: $bull,
-                bearish_pct: $bear,
+                bullish_pct: (.bullish_pct // 0),
+                bearish_pct: (.bearish_pct // 0),
                 sentiment_score: (.sentiment_score // 0),
                 mentions: (.mentions // 0),
                 trend: (.trend // "stable"),
