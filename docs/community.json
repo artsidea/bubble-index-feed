@@ -1,36 +1,36 @@
 {
-  "score": 52,
-  "bullish_pct": 26,
-  "bearish_pct": 18,
-  "sentiment_score": 0.035,
-  "mentions": 5577,
-  "trend": "falling",
+  "score": 50,
+  "bullish_pct": 31,
+  "bearish_pct": 28,
+  "sentiment_score": 0.003,
+  "mentions": 86,
+  "trend": "rising",
   "tickers": [
     {
-      "symbol": "NVDA",
-      "mentions": 238,
-      "buzz": 77
-    },
-    {
       "symbol": "META",
-      "mentions": 222,
-      "buzz": 76
+      "mentions": 3,
+      "buzz": 36
     },
     {
-      "symbol": "AAPL",
-      "mentions": 258,
-      "buzz": 76
+      "symbol": "MU",
+      "mentions": 5,
+      "buzz": 36
     },
     {
-      "symbol": "GOOGL",
-      "mentions": 116,
-      "buzz": 75
+      "symbol": "SNL",
+      "mentions": 1,
+      "buzz": 34
     },
     {
-      "symbol": "TSLA",
-      "mentions": 178,
-      "buzz": 75
+      "symbol": "BN",
+      "mentions": 1,
+      "buzz": 34
+    },
+    {
+      "symbol": "SBS",
+      "mentions": 1,
+      "buzz": 32
     }
   ],
-  "updatedAt": "2026-09-27T22:00:02Z"
+  "updatedAt": "2026-09-28T00:31:55Z"
 }
