@@ -3,34 +3,34 @@
   "bullish_pct": 26,
   "bearish_pct": 17,
   "sentiment_score": 0.045,
-  "mentions": 4027,
+  "mentions": 5393,
   "trend": "stable",
   "tickers": [
     {
       "symbol": "NVDA",
-      "mentions": 136,
+      "mentions": 188,
+      "buzz": 79
+    },
+    {
+      "symbol": "AMD",
+      "mentions": 91,
       "buzz": 77
     },
     {
       "symbol": "GME",
-      "mentions": 515,
-      "buzz": 76
-    },
-    {
-      "symbol": "AMD",
-      "mentions": 68,
-      "buzz": 76
+      "mentions": 593,
+      "buzz": 77
     },
     {
       "symbol": "NFLX",
-      "mentions": 74,
-      "buzz": 75
+      "mentions": 92,
+      "buzz": 76
     },
     {
-      "symbol": "AAPL",
-      "mentions": 60,
-      "buzz": 74
+      "symbol": "TSLA",
+      "mentions": 110,
+      "buzz": 75
     }
   ],
-  "updatedAt": "2026-10-03T17:10:51Z"
+  "updatedAt": "2026-10-03T21:06:25Z"
 }
