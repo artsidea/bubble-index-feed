@@ -1,36 +1,36 @@
 {
   "score": 51,
-  "bullish_pct": 29,
-  "bearish_pct": 13,
-  "sentiment_score": 0.028,
-  "mentions": 75,
-  "trend": "rising",
+  "bullish_pct": 27,
+  "bearish_pct": 22,
+  "sentiment_score": 0.021,
+  "mentions": 1327,
+  "trend": "stable",
   "tickers": [
     {
-      "symbol": "TSLA",
-      "mentions": 6,
-      "buzz": 33
+      "symbol": "MU",
+      "mentions": 41,
+      "buzz": 68
     },
     {
-      "symbol": "GME",
-      "mentions": 2,
-      "buzz": 31
+      "symbol": "META",
+      "mentions": 29,
+      "buzz": 67
     },
     {
-      "symbol": "APP",
-      "mentions": 3,
-      "buzz": 31
+      "symbol": "AMZN",
+      "mentions": 32,
+      "buzz": 66
     },
     {
-      "symbol": "PEP",
-      "mentions": 3,
-      "buzz": 28
+      "symbol": "NVDA",
+      "mentions": 60,
+      "buzz": 63
     },
     {
       "symbol": "GOOGL",
-      "mentions": 2,
-      "buzz": 28
+      "mentions": 37,
+      "buzz": 62
     }
   ],
-  "updatedAt": "2026-10-04T00:29:23Z"
+  "updatedAt": "2026-10-04T06:44:32Z"
 }
