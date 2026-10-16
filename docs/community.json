@@ -1,36 +1,36 @@
 {
   "score": 50,
-  "bullish_pct": 24,
-  "bearish_pct": 21,
-  "sentiment_score": 0.009,
-  "mentions": 513,
+  "bullish_pct": 19,
+  "bearish_pct": 18,
+  "sentiment_score": -0.002,
+  "mentions": 4182,
   "trend": "rising",
   "tickers": [
     {
-      "symbol": "NVDA",
-      "mentions": 21,
-      "buzz": 53
-    },
-    {
-      "symbol": "CRWV",
-      "mentions": 23,
-      "buzz": 49
-    },
-    {
       "symbol": "TSLA",
-      "mentions": 12,
-      "buzz": 46
+      "mentions": 1666,
+      "buzz": 82
     },
     {
-      "symbol": "GME",
-      "mentions": 26,
-      "buzz": 46
+      "symbol": "NVDA",
+      "mentions": 130,
+      "buzz": 74
     },
     {
       "symbol": "SPCX",
-      "mentions": 14,
-      "buzz": 45
+      "mentions": 179,
+      "buzz": 74
+    },
+    {
+      "symbol": "MSFT",
+      "mentions": 34,
+      "buzz": 71
+    },
+    {
+      "symbol": "CRWV",
+      "mentions": 109,
+      "buzz": 70
     }
   ],
-  "updatedAt": "2026-10-16T01:10:08Z"
+  "updatedAt": "2026-10-16T07:01:40Z"
 }
