@@ -1,36 +1,36 @@
 {
   "score": 50,
   "bullish_pct": 19,
-  "bearish_pct": 18,
+  "bearish_pct": 19,
   "sentiment_score": 0.002,
-  "mentions": 14537,
+  "mentions": 16047,
   "trend": "rising",
   "tickers": [
     {
       "symbol": "TSLA",
-      "mentions": 4784,
+      "mentions": 5054,
       "buzz": 86
     },
     {
       "symbol": "NVDA",
-      "mentions": 536,
-      "buzz": 81
+      "mentions": 609,
+      "buzz": 82
     },
     {
       "symbol": "SPCX",
-      "mentions": 466,
+      "mentions": 518,
       "buzz": 79
     },
     {
       "symbol": "AMZN",
-      "mentions": 240,
-      "buzz": 78
+      "mentions": 283,
+      "buzz": 79
     },
     {
-      "symbol": "CRWV",
-      "mentions": 470,
-      "buzz": 77
+      "symbol": "MSFT",
+      "mentions": 140,
+      "buzz": 78
     }
   ],
-  "updatedAt": "2026-10-16T20:55:49Z"
+  "updatedAt": "2026-10-16T23:27:17Z"
 }
