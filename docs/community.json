@@ -3,12 +3,12 @@
   "bullish_pct": 22,
   "bearish_pct": 20,
   "sentiment_score": 0.005,
-  "mentions": 8277,
+  "mentions": 8284,
   "trend": "falling",
   "tickers": [
     {
       "symbol": "SPCX",
-      "mentions": 1335,
+      "mentions": 1339,
       "buzz": 80
     },
     {
@@ -32,5 +32,5 @@
       "buzz": 75
     }
   ],
-  "updatedAt": "2026-10-20T19:08:26Z"
+  "updatedAt": "2026-10-20T23:07:04Z"
 }
