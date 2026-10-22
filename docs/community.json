@@ -2,35 +2,35 @@
   "score": 50,
   "bullish_pct": 23,
   "bearish_pct": 23,
-  "sentiment_score": -0.004,
-  "mentions": 11655,
+  "sentiment_score": -0.001,
+  "mentions": 15548,
   "trend": "rising",
   "tickers": [
     {
       "symbol": "META",
-      "mentions": 1579,
+      "mentions": 1792,
       "buzz": 83
     },
     {
-      "symbol": "TSLA",
-      "mentions": 673,
-      "buzz": 79
+      "symbol": "MRNA",
+      "mentions": 931,
+      "buzz": 80
     },
     {
-      "symbol": "SPCX",
-      "mentions": 480,
+      "symbol": "TSLA",
+      "mentions": 758,
       "buzz": 79
     },
     {
       "symbol": "AMZN",
-      "mentions": 279,
-      "buzz": 78
+      "mentions": 354,
+      "buzz": 79
     },
     {
-      "symbol": "NFLX",
-      "mentions": 442,
-      "buzz": 78
+      "symbol": "SPCX",
+      "mentions": 601,
+      "buzz": 79
     }
   ],
-  "updatedAt": "2026-10-22T19:11:14Z"
+  "updatedAt": "2026-10-22T23:13:04Z"
 }
