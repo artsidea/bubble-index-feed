@@ -2,35 +2,35 @@
   "score": 52,
   "bullish_pct": 25,
   "bearish_pct": 17,
-  "sentiment_score": 0.036,
-  "mentions": 3305,
+  "sentiment_score": 0.035,
+  "mentions": 4368,
   "trend": "falling",
   "tickers": [
     {
-      "symbol": "AMZN",
-      "mentions": 155,
-      "buzz": 76
+      "symbol": "AAPL",
+      "mentions": 145,
+      "buzz": 77
     },
     {
-      "symbol": "AAPL",
-      "mentions": 115,
+      "symbol": "NVDA",
+      "mentions": 163,
+      "buzz": 77
+    },
+    {
+      "symbol": "AMZN",
+      "mentions": 199,
       "buzz": 76
     },
     {
       "symbol": "GOOGL",
-      "mentions": 135,
-      "buzz": 74
+      "mentions": 175,
+      "buzz": 76
     },
     {
       "symbol": "META",
-      "mentions": 143,
-      "buzz": 74
-    },
-    {
-      "symbol": "MSFT",
-      "mentions": 91,
-      "buzz": 73
+      "mentions": 184,
+      "buzz": 76
     }
   ],
-  "updatedAt": "2026-10-25T15:59:44Z"
+  "updatedAt": "2026-10-25T18:53:46Z"
 }
