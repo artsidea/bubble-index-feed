@@ -1,36 +1,36 @@
 {
-  "score": 50,
-  "bullish_pct": 27,
-  "bearish_pct": 24,
-  "sentiment_score": 0.009,
-  "mentions": 3415,
+  "score": 51,
+  "bullish_pct": 25,
+  "bearish_pct": 23,
+  "sentiment_score": 0.01,
+  "mentions": 8041,
   "trend": "rising",
   "tickers": [
     {
       "symbol": "GOOGL",
-      "mentions": 1028,
-      "buzz": 79
+      "mentions": 2565,
+      "buzz": 83
     },
     {
       "symbol": "MSFT",
-      "mentions": 164,
-      "buzz": 73
+      "mentions": 396,
+      "buzz": 78
     },
     {
-      "symbol": "SPCX",
-      "mentions": 115,
-      "buzz": 72
+      "symbol": "META",
+      "mentions": 312,
+      "buzz": 77
     },
     {
       "symbol": "AMZN",
-      "mentions": 102,
-      "buzz": 71
+      "mentions": 282,
+      "buzz": 76
     },
     {
-      "symbol": "NVDA",
-      "mentions": 73,
-      "buzz": 71
+      "symbol": "SPCX",
+      "mentions": 207,
+      "buzz": 75
     }
   ],
-  "updatedAt": "2026-10-29T06:56:09Z"
+  "updatedAt": "2026-10-29T14:07:06Z"
 }
