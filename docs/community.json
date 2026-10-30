@@ -1,36 +1,36 @@
 {
   "score": 49,
   "bullish_pct": 22,
-  "bearish_pct": 25,
-  "sentiment_score": -0.015,
-  "mentions": 16439,
+  "bearish_pct": 24,
+  "sentiment_score": -0.011,
+  "mentions": 20775,
   "trend": "rising",
   "tickers": [
     {
       "symbol": "GOOGL",
-      "mentions": 1787,
-      "buzz": 85
+      "mentions": 2205,
+      "buzz": 86
     },
     {
       "symbol": "INTC",
-      "mentions": 1957,
-      "buzz": 83
+      "mentions": 2396,
+      "buzz": 84
     },
     {
       "symbol": "AMZN",
-      "mentions": 1000,
+      "mentions": 1151,
       "buzz": 83
     },
     {
       "symbol": "RDDT",
-      "mentions": 1829,
-      "buzz": 81
+      "mentions": 2381,
+      "buzz": 83
     },
     {
       "symbol": "META",
-      "mentions": 438,
-      "buzz": 79
+      "mentions": 570,
+      "buzz": 81
     }
   ],
-  "updatedAt": "2026-10-30T19:08:55Z"
+  "updatedAt": "2026-10-30T23:36:58Z"
 }
