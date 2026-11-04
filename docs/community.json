@@ -1,36 +1,36 @@
 {
-  "score": 50,
-  "bullish_pct": 21,
-  "bearish_pct": 22,
-  "sentiment_score": -0.003,
-  "mentions": 68,
-  "trend": "rising",
+  "score": 49,
+  "bullish_pct": 25,
+  "bearish_pct": 26,
+  "sentiment_score": -0.013,
+  "mentions": 2470,
+  "trend": "stable",
   "tickers": [
     {
       "symbol": "AMD",
-      "mentions": 7,
-      "buzz": 37
+      "mentions": 372,
+      "buzz": 72
     },
     {
-      "symbol": "TU",
-      "mentions": 1,
-      "buzz": 35
+      "symbol": "NVDA",
+      "mentions": 90,
+      "buzz": 71
     },
     {
-      "symbol": "0700",
-      "mentions": 1,
-      "buzz": 30
+      "symbol": "TSLA",
+      "mentions": 164,
+      "buzz": 70
     },
     {
       "symbol": "SPCX",
-      "mentions": 2,
-      "buzz": 30
+      "mentions": 134,
+      "buzz": 70
     },
     {
-      "symbol": "JPM",
-      "mentions": 1,
-      "buzz": 28
+      "symbol": "GOOGL",
+      "mentions": 152,
+      "buzz": 69
     }
   ],
-  "updatedAt": "2026-11-04T01:12:38Z"
+  "updatedAt": "2026-11-04T08:57:45Z"
 }
