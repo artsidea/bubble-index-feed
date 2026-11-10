@@ -1,36 +1,36 @@
 {
-  "score": 52,
-  "bullish_pct": 27,
-  "bearish_pct": 9,
-  "sentiment_score": 0.03,
-  "mentions": 11,
-  "trend": "rising",
+  "score": 50,
+  "bullish_pct": 23,
+  "bearish_pct": 20,
+  "sentiment_score": 0.007,
+  "mentions": 2637,
+  "trend": "stable",
   "tickers": [
     {
       "symbol": "NVDA",
-      "mentions": 6,
-      "buzz": 36
+      "mentions": 990,
+      "buzz": 81
     },
     {
-      "symbol": "ORCL",
-      "mentions": 1,
-      "buzz": 25
+      "symbol": "AAPL",
+      "mentions": 64,
+      "buzz": 69
     },
     {
-      "symbol": "DDD",
-      "mentions": 1,
-      "buzz": 24
+      "symbol": "META",
+      "mentions": 54,
+      "buzz": 69
     },
     {
-      "symbol": "NFLX",
-      "mentions": 2,
-      "buzz": 16
+      "symbol": "GOOGL",
+      "mentions": 81,
+      "buzz": 68
     },
     {
-      "symbol": "RKLB",
-      "mentions": 1,
-      "buzz": 13
+      "symbol": "AMZN",
+      "mentions": 66,
+      "buzz": 67
     }
   ],
-  "updatedAt": "2026-11-10T00:08:02Z"
+  "updatedAt": "2026-11-10T08:15:42Z"
 }
