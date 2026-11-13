@@ -1,10 +1,36 @@
 {
-  "score": 50,
-  "bullish_pct": 0,
-  "bearish_pct": 0,
-  "sentiment_score": 0.0,
-  "mentions": 0,
+  "score": 49,
+  "bullish_pct": 17,
+  "bearish_pct": 22,
+  "sentiment_score": -0.027,
+  "mentions": 5616,
   "trend": "rising",
-  "tickers": [],
-  "updatedAt": "2026-11-13T00:06:36Z"
+  "tickers": [
+    {
+      "symbol": "NVDA",
+      "mentions": 3007,
+      "buzz": 86
+    },
+    {
+      "symbol": "MSFT",
+      "mentions": 366,
+      "buzz": 75
+    },
+    {
+      "symbol": "AMD",
+      "mentions": 166,
+      "buzz": 75
+    },
+    {
+      "symbol": "AAPL",
+      "mentions": 146,
+      "buzz": 75
+    },
+    {
+      "symbol": "INTC",
+      "mentions": 106,
+      "buzz": 73
+    }
+  ],
+  "updatedAt": "2026-11-13T07:47:12Z"
 }
