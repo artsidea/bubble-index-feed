@@ -1,36 +1,36 @@
 {
   "score": 49,
-  "bullish_pct": 21,
+  "bullish_pct": 20,
   "bearish_pct": 23,
-  "sentiment_score": -0.013,
-  "mentions": 5692,
+  "sentiment_score": -0.014,
+  "mentions": 8616,
   "trend": "falling",
   "tickers": [
     {
       "symbol": "NVDA",
-      "mentions": 2182,
-      "buzz": 84
+      "mentions": 3699,
+      "buzz": 86
     },
     {
       "symbol": "SPCX",
-      "mentions": 314,
-      "buzz": 75
+      "mentions": 411,
+      "buzz": 77
     },
     {
       "symbol": "INTC",
-      "mentions": 73,
-      "buzz": 75
+      "mentions": 113,
+      "buzz": 76
+    },
+    {
+      "symbol": "AMD",
+      "mentions": 122,
+      "buzz": 76
     },
     {
       "symbol": "AAPL",
-      "mentions": 106,
-      "buzz": 74
-    },
-    {
-      "symbol": "META",
-      "mentions": 92,
-      "buzz": 74
+      "mentions": 147,
+      "buzz": 76
     }
   ],
-  "updatedAt": "2026-11-15T16:57:13Z"
+  "updatedAt": "2026-11-15T21:39:07Z"
 }
