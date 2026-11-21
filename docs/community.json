@@ -2,35 +2,35 @@
   "score": 49,
   "bullish_pct": 20,
   "bearish_pct": 24,
-  "sentiment_score": -0.023,
-  "mentions": 11015,
-  "trend": "rising",
+  "sentiment_score": -0.019,
+  "mentions": 14499,
+  "trend": "stable",
   "tickers": [
     {
       "symbol": "NVDA",
-      "mentions": 4250,
+      "mentions": 5382,
       "buzz": 88
     },
     {
       "symbol": "ANT",
-      "mentions": 1051,
-      "buzz": 84
-    },
-    {
-      "symbol": "AMZN",
-      "mentions": 219,
-      "buzz": 79
+      "mentions": 1339,
+      "buzz": 85
     },
     {
       "symbol": "GOOGL",
-      "mentions": 278,
-      "buzz": 79
+      "mentions": 403,
+      "buzz": 81
     },
     {
-      "symbol": "MS",
-      "mentions": 96,
-      "buzz": 78
+      "symbol": "AMZN",
+      "mentions": 297,
+      "buzz": 81
+    },
+    {
+      "symbol": "MSFT",
+      "mentions": 219,
+      "buzz": 79
     }
   ],
-  "updatedAt": "2026-11-21T17:19:45Z"
+  "updatedAt": "2026-11-21T23:01:53Z"
 }
